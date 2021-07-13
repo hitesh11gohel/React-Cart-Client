@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.root_table{
+  
+  background: #360033; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #360033, #0b8793); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #360033, #0b8793); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.root_add{
+  background-image: linear-gradient(to right top, #1a51a4, #0083c4, #00adba, #41d198, #caeb81);
+  
+  width: 100vw;
+  height: 92.9vh;
+}
+
+.root_edit{
+  background-image: linear-gradient(to right top, #17e54d, #3aa835, #367023, #263d17, #0c0f07);
+}
